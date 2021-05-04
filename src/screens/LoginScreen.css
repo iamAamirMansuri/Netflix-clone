@@ -1,0 +1,96 @@
+.loginScreen__logo {
+  position: fixed;
+  left: 0;
+  width: 80px;
+  object-fit: contain;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.loginScreen {
+  position: relative;
+  height: 100%;
+  background: url(https://www.get-licensed.co.uk/get-daily/wp-content/uploads/2019/08/apps.55787.9007199266246365.687a10a8-4c4a-4a47-8ec5-a95f70d8852d.jpg)
+    center no-repeat;
+  background-size: cover;
+}
+
+.loginScreen__gradient {
+  height: 100vh;
+  width: 100%;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.1);
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0,
+    rgba(0, 0, 0, 0) 60%,
+    rgba(0, 0, 0, 0.6) 100%
+  );
+}
+
+.loginScreen__button {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: white;
+  background-color: #e50914;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+
+.loginScreen__body {
+  z-index: 1;
+  color: white;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  right: 10%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.loginScreen__body > h1 {
+  font-size: 3.125rem;
+  margin-bottom: 20px;
+}
+
+.loginScreen__body > h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.loginScreen__body > h3 {
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+
+.loginScreen__input input {
+  padding: 10px;
+  outline-width: 0;
+  height: 30px;
+  width: 30%;
+  border: none;
+  max-width: 600px;
+  border-radius: 0;
+  border-top: 3px solid white;
+}
+
+.loginScreen__getStarted {
+  padding: 16px 20px;
+  border: none;
+  font-size: 1.1rem;
+  color: white;
+  background-color: #e50914;
+  border-radius: 0;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.loginScreen__input {
+  margin: 20px;
+}
